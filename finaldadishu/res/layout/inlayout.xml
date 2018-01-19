@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+  <LinearLayout 
+          android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请 输 入 密 码 ："/>
+
+     <EditText
+        android:id="@+id/Ed_first_password"
+        android:digits="1234567890"
+        android:maxLength="6"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      
+        />
+
+   
+   </LinearLayout> 
+   
+    <LinearLayout 
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView 
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="再输一次密码："/>
+
+     <EditText
+        android:id="@+id/Ed_second_password"
+         android:digits="1234567890"
+           android:maxLength="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:inputType="textPassword"
+        />
+
+   
+   </LinearLayout>  
+  
+</LinearLayout>

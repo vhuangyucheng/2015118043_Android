@@ -1,0 +1,82 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beijingzong1"
+    >
+    
+   <TextView 
+            android:text="游戏登录"
+             android:textColor="#ffff99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp" />
+   
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+   
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFE0"
+        android:layout_height="wrap_content"
+        android:text="密码：" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:digits="1234567890"
+        android:maxLength="6"
+        android:hint="请输入密码"
+        android:textColorHint="#FFFFE0"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        
+        android:inputType="textPassword" />
+    <ImageButton
+        android:id="@+id/imgbtnlogin"
+           android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_action_arrow_right"
+        />
+</LinearLayout>
+   
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:layout_marginTop="20dp" 
+       android:gravity="center"
+       >
+        
+        <Button
+            android:id="@+id/btn_shezhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFACD"
+            android:text="设置密码"
+                />
+            <Button
+            android:id="@+id/btn_xiugai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFACD"
+            android:text="修改密码"
+          
+                />
+
+ </LinearLayout>
+    
+ 
+      
+        
+      
+</LinearLayout>
+    
+    
